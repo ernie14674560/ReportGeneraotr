@@ -1,0 +1,80 @@
+('C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+ 'Week\\build\\app\\ReportGenerator.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+   'Week\\build\\app\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+   'Week\\build\\app\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+   'Week\\build\\app\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+   'Week\\build\\app\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project '
+   'Week\\build\\app\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32api',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32api.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32comgenpy',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32comgenpy.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('pyi_rth_subprocess',
+   'c:\\users\\ernie.chen\\desktop\\project\\project '
+   'week\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'PYSOURCE'),
+  ('app',
+   'C:\\Users\\ernie.chen\\Desktop\\Project\\Project Week\\app.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

@@ -1,0 +1,284 @@
+BSL part:
+- AP191
+- AP198
+- AP174
+- AP197
+- AP196
+- AP148
+- AP150
+- AP17400
+BSL tolerance: '0.002'
+Convert jpg to png:
+- I:\D00ALL\!!IROM\Fusion bond\AP1BF\2020
+- I:\D00ALL\!!IROM\Fusion bond\AP1BF-ANNEAL
+OOC part:
+- AP196
+- AP197
+- AP1C0
+active part:
+  Conti:
+  - AP148
+  - AP150
+  Gen1:
+  - AP196
+  - AP197
+  - AP174
+  - AP1C0
+  - AP1CC00
+  - AP1CC01
+  - AP1C5
+  - AP17400
+  - AP17406
+  - AP17407
+  - AP19600
+  - AP1CC
+  - AP19601
+  - AP19602
+  - AP19603
+  - AP19700
+  - AP19701
+  - AP19702
+  Panasonic:
+  - AP1FG
+  SMP:
+  - AP191
+  - AP198
+database:
+  driver: '{Microsoft ODBC for Oracle}'
+  host: 192.168.1.125
+  password: password
+  port: '1521'
+  server: MES
+  username: plldba
+gross die by part:
+  AP148: '1680'
+  AP150: '4537'
+  AP174: '14419'
+  AP17400: '14419'
+  AP17406: '14419'
+  AP17407: '14419'
+  AP197: '4528'
+  AP19700: '4528'
+  AP19701: '4528'
+  AP19702: '4528'
+  AP1BF: '7572'
+  AP1C0: '2686'
+  AP1CC: '3029'
+inline_prompts_dict:
+  CP1_YIELD:
+  - AP1FG
+  FSINSP_SYL:
+  - AP196
+  - AP197
+  - AP174
+  - AP1C0
+  - AP1CC
+  - AP1C5
+  - AP174
+  - AP148
+  - AP150
+  - AP191
+  - AP198
+map info:
+  CP item pass spec:
+    AP1FG:
+      CP1:
+        item description:
+          '1': offset
+          '2': Rin
+          '3': Rout
+          '4': leakage
+        item spec:
+          '1':
+            <: '20'
+            '>': '-20'
+          '2':
+            <: '5.5'
+            '>': '4.5'
+          '3':
+            <: '5.5'
+            '>': '4.5'
+          '4':
+            <: '1'
+            '>': '0'
+    AP9B5:
+      CP3:
+        item description:
+          '1': short1
+          '10': short10
+          '11': short11
+          '12': short12
+          '13': short13
+          '14': short14
+          '2': short2
+          '3': short3
+          '4': short4
+          '5': short5
+          '6': short6
+          '7': short7
+          '8': short8
+          '9': short9
+        item spec:
+          '1':
+            '>': '1'
+          '10':
+            '>': '1'
+          '11':
+            '>': '1'
+          '12':
+            '>': '1'
+          '13':
+            '>': '1'
+          '14':
+            '>': '1'
+          '2':
+            '>': '1'
+          '3':
+            '>': '1'
+          '4':
+            '>': '1'
+          '5':
+            '>': '1'
+          '6':
+            '>': '1'
+          '7':
+            '>': '1'
+          '8':
+            '>': '1'
+          '9':
+            '>': '1'
+  default color(RGB):
+    High color: 255, 0, 0
+    Low color: 0, 0, 255
+    OOS high color: 255, 20, 147
+    OOS low color: 160, 160, 160
+  die size in mm:
+    AP174: 0.788*0.788
+    AP196: 2.06*2.06
+    AP197: 1.58*1.58
+    AP1BQ: 0.64*1.13
+    AP1C0: 2.01*2.36
+    AP1C5: 2.7*2.7
+    AP1CC: 2.05*2.05
+    AP1CU: 2.1*2.1
+    AP9B5: 9*1
+  test types:
+  - CP1
+  - CP2
+  - CP3
+  - CP4
+  - CP5
+  - CP6
+  - CPY1
+  - CPY2
+  - CPY3
+  unnecessary dies in map:
+    AP174:
+    - '6516'
+    AP197:
+    - '0220'
+    - '0120'
+    - '0121'
+    - '0122'
+    - 0259
+    - 0159
+    - '0157'
+    - 0158
+part show in docx summary:
+  OOC:
+  - AP196
+  - AP197
+  charts:
+  - AP148
+  - AP150
+  - AP1C5
+  - AP196
+  - AP197
+  - AP191
+  - AP198
+  scrap pcs:
+  - AP148
+  - AP150
+  - AP1C5
+  - AP196
+  - AP197
+  - AP191
+  - AP198
+  table:
+  - AP148
+  - AP150
+  - AP1C5
+  - AP17400
+  - AP19600
+  - AP19601
+  - AP19602
+  - AP19603
+  - AP19700
+  - AP19701
+  - AP19702
+  - AP191
+  - AP198
+parts show in monthly pptx:
+  exclude parts: {}
+  merge parts:
+    AP196 & AP197:
+    - AP196
+    - AP197
+  parts and title:
+    AP17400: Embedded Tie Bar
+    AP17406: Embedded Tie Bar
+    AP17407: Embedded Tie Bar
+    AP196: Gen-1 Differential
+    AP197: Gen-1 Absolute
+    AP1C0: Back Side Absolute
+  parts show in slide:
+    AP17400: high pressure sensor
+    AP17406: high pressure sensor
+    AP17407: high pressure sensor
+    AP196 & AP197: Gen-1 Diff & Abs pressure sensor
+    AP1C0: BSA pressure sensor
+  parts use in report:
+  - AP196
+  - AP197
+  - AP17400
+  - AP17406
+  - AP17407
+  - AP1C0
+query scrap parts:
+- AP148
+- AP150
+- AP196
+- AP174
+- AP197
+- AP1C0
+- AP1CC
+- AP1C5
+- AP191
+- AP198
+- AP1BF
+- AC1B2
+- AP1FG
+summary table parts and yield goal:
+  AP148: 88%
+  AP150: 88%
+  AP174: 88%
+  AP17400: 88%
+  AP17406: 88%
+  AP17407: 88%
+  AP191: 85%
+  AP196: 89%
+  AP19600: 89%
+  AP19601: 89%
+  AP19602: 89%
+  AP19603: 89%
+  AP197: 89%
+  AP19700: 89%
+  AP19701: 89%
+  AP19702: 89%
+  AP198: 85%
+  AP1C0: 88%
+  AP1C5: 88%
+  AP1CC00: 88%
+  AP1CC01: 88%
+  AP1FG: 99%
+update bsl minimal pcs: '18'
